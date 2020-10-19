@@ -1,7 +1,41 @@
-h1, h2, h3, h4 {
-    font-family: 'Cinzel Decorative', cursive;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header Text Area */
+.feature-bg {
+  background: rgba(255, 198, 205, 0.55);
+  width: 60vw;
+}
+
+.feature-text {
+  font-size: 2rem;
+  color: oldlace;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 1.2rem;
+}
+
+.header_img {
+  min-height: 25vh;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  .feature-bg {
+    width: 60vw;
+  }
 }
